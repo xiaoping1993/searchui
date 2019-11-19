@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <!-- Update this when renaming the project -->
+  <groupId>com.attivio.searchui</groupId>
+  <artifactId>parent</artifactId>
+  <version>1.0.6-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Parent POM</name>
+  <description>Parent for building the components of a SUIT-based application.</description>
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <licenses>
+    <license>
+      <name>GNU General Public License (GPL), Version 3.0</name>
+      <url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+    </license>
+  </licenses>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/attivio/searchui/issues</url>
+  </issueManagement>
+  <scm>
+    <connection>scm:git:git@github.com:attivio/searchui.git</connection>
+    <developerConnection>scm:git:git@github.com:attivio/searchui.git</developerConnection>
+    <url>https://github.com/attivio/searchui.git</url>
+    <tag>HEAD</tag>
+  </scm>
+  <build>
+    <finalName>searchui-${project.artifactId}-${project.version}</finalName>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.7</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-dependency-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.1.0</version>
+        </plugin>
+        <plugin>
+          <artifactId>maven-war-plugin</artifactId>
+          <version>3.2.0</version>
+        </plugin>
+        <plugin>
+          <groupId>com.github.eirslett</groupId>
+          <artifactId>frontend-maven-plugin</artifactId>
+          <version>1.6</version>
+        </plugin>
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>1.5.9.RELEASE</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <modules>
+    <module>frontend</module>
+    <module>servlet</module>
+    <module>module</module>
+  </modules>
+</project>

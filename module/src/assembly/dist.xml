@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<assembly>
+  <id>dist</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <fileSets>
+    <fileSet>
+      <directory>src/main/resources</directory>
+      <excludes>
+        <exclude>attivio.module.json</exclude>
+      </excludes>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </fileSet>
+  </fileSets>
+  <files>
+    <file>
+      <source>src/main/resources/attivio.module.json</source>
+      <filtered>true</filtered>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </file>
+    <file>
+      <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+      <outputDirectory>lib</outputDirectory>
+    </file>
+    <file>
+      <source>${project.basedir}/../frontend/configuration.properties.js</source>
+      <outputDirectory>${file.separator}</outputDirectory>
+      <filtered>true</filtered>
+    </file>
+    <file>
+      <source>${project.basedir}/../frontend/users.xml</source>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </file>
+  </files>
+  <dependencySets>
+    <dependencySet>
+      <outputDirectory>lib</outputDirectory>
+      <excludes>
+        <!-- Update this when renaming the project -->
+        <exclude>com.attivio.searchui:frontend:zip:dist</exclude>
+      </excludes>
+      <useProjectArtifact>false</useProjectArtifact>
+    </dependencySet>
+    <dependencySet>
+      <!-- Update this when renaming the project -->
+      <outputDirectory>webapps/searchui/dist</outputDirectory>
+      <includes>
+        <!-- Update this when renaming the project -->
+        <include>com.attivio.searchui:frontend:zip:dist</include>
+      </includes>
+      <unpack>true</unpack>
+    </dependencySet>
+  </dependencySets>
+</assembly>

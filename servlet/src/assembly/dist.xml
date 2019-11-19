@@ -1,0 +1,34 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+  <id>dist</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <files>
+    <file>
+      <source>${project.build.directory}/${project.build.finalName}.${project.packaging}</source>
+      <destName>${project.artifactId}.${project.packaging}</destName>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </file>
+    <file>
+      <source>${project.basedir}/../frontend/configuration.properties.js</source>
+      <outputDirectory>${file.separator}</outputDirectory>
+      <filtered>true</filtered>
+    </file>
+    <file>
+      <source>${project.basedir}/../frontend/users.xml</source>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </file>
+  </files>
+  <fileSets>
+    <fileSet>
+      <directory>${project.basedir}</directory>
+      <includes>
+        <include>application.properties</include>
+      </includes>
+      <outputDirectory>${file.separator}</outputDirectory>
+    </fileSet>
+  </fileSets>
+</assembly>

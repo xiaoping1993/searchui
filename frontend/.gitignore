@@ -1,0 +1,9 @@
+.DS_Store
+dist
+target
+node
+node_modules
+.mycommitmsg.txt
+*.log
+.idea
+.vscode
