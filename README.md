@@ -18,10 +18,17 @@
 	修改配置方法如下图
 	![](https://raw.githubusercontent.com/JiPingWangPKI/searchui/master/resource/field_s.jpg)
 5. 配置attivio searchui的登录密码
+
 	![](https://raw.githubusercontent.com/JiPingWangPKI/searchui/master/resource/modifyPassword.jpg)
 6. Python集成到attivio中
-	集成方法
-7. asdfasd
+	集成方法：[https://github.com/JiPingWangPKI/searchui/blob/master/resource/attivio%E6%8E%A5%E5%85%A5python%E8%84%9A%E6%9C%AC.docx](https://github.com/JiPingWangPKI/searchui/blob/master/resource/attivio%E6%8E%A5%E5%85%A5python%E8%84%9A%E6%9C%AC.docx "下载attivio集成python文件")
+7. Attivio searchui中配置新的defaultSql机制
+	增加新的defalutSql机制是指：searchui接受非同源的数据到本地缓存字段defaultSql中，用户可配置是否使用这个defaultSql，使用的话，新的查询语句会根据普通和高级两种方式来拼接
+	![](https://raw.githubusercontent.com/JiPingWangPKI/searchui/master/resource/defaultSql.jpg)
+8. searchui中添加下载导出的csv文件
+	主要添加一个download按钮，并将之前export导出得内容按一定规则下载为csv文件，SearchUISearchPage.js自行看对应代码
+9. Searchui查询主页面的LOGO变为Perkinelmer的logo
+	替换对应目录下的图片文件，再稍调样式即可
 
 
 
