@@ -1,4 +1,5 @@
-演示地址：[http://47.103.133.15:8082/searchui/](http://47.103.133.15:8082/searchui/ "演示地址")
+SearchUI演示地址：[http://47.103.133.15:8082/searchui/](http://47.103.133.15:8082/searchui/ "演示地址")
+Attivio演示地址：[http://47.103.133.15:17000](http://47.103.133.15:17000 "演示地址")
 # 一：新增功能介绍 #
 # 项目起源 #
 这个项目是由attivio（结构化非结构化文件的高级软件）的检索模板单独提出来，可供研发人员二次开发
@@ -7,6 +8,7 @@
 # 部署手册 #
 提供一个文档："attivio_searchui配置手册.docx"（在此目录中的resource目录下）
 大体介绍下：文档中提到的tomcat配置，我已经提供一个配置好的tomcat（resource/apache-tomcat-9.0.0.zip）可供参考；attivio的安装如果看文档没有成功可直接查询官方文档
+部署tomcat时候，需要按需修改tomat\searchui\configuration.properties中的配置，关键配置已有注释在resource文件夹下有模板configuration.properties文件
 # 新增功能 #
 1. 在搜索结果页面添加export按钮如图
 	点击export会获得搜索结果，之后会对搜索结果做二次处理，在配置文件中指定特定字段，可拿到特定字段对应的数据集合

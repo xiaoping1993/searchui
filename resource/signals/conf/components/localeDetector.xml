@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="localeDetector" class="com.attivio.basistech.transformer.ingest.linguistics.BasisTechDetectLocale" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <properties>
+    <property name="languages" value="languages"/>
+    <list name="input">
+      <entry value="text"/>
+    </list>
+    <property name="minimumLength" value="50"/>
+    <property name="fallbackLocale" value="zh"/>
+  </properties>
+</component>

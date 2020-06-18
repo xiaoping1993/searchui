@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="extractForShdlrmyyZS" class="com.attivio.platform.transformer.ingest.field.ExtractRegexPatterns" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <properties>
+    <map name="rules">
+      <property name="([\d\D]*)" value="text_s"/>
+    </map>
+    <list name="input">
+      <entry value="text"/>
+    </list>
+  </properties>
+</component>

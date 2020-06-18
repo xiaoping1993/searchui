@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="usePython1" class="com.attivio.pkidsdanalytics.ingest.transformer.usePython" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <properties>
+    <list name="pythonPathList">
+      <entry value="C:\NLPTools\NLPTools\ZS_VTE_extract01\usePythonTempale.py"/>
+    </list>
+  </properties>
+</component>

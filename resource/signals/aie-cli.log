@@ -1,0 +1,1487 @@
+2019-08-07 12:34:11,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 12:34:11,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 12:34:11,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 12:34:11,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 12:34:11,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 12:34:11,818 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 12:34:11,818 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 12:34:11,818 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 12:34:11,818 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 12:34:12,224 INFO  PatchInit [main] - PATCH 5.5.0.356 loaded
+2019-08-07 12:34:17,693 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-08-07 12:34:17,896 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/D:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-08-07 12:34:18,021 INFO  CuratorFrameworkImpl [main] - Starting
+2019-08-07 12:34:18,068 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-08-07 12:34:18,068 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-08-07 12:34:18,083 WARN  ZKPaths [main] - The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead.
+2019-08-07 12:34:18,099 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-08-07 12:34:18,115 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=5,5,1565152458037,1565152458037,0,0,0,0,0,0,5
+, data=[]}}
+2019-08-07 12:34:18,115 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-08-07 12:34:18,130 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-08-07 12:34:18,193 INFO  AieZooKeeper [main] - Connected zookeeper session 16c6a5b34890002 (previous=null)
+2019-08-07 12:34:18,271 INFO  CLI [main] - Starting Agent CLI
+2019-08-07 12:34:22,339 INFO  CLI [main] - Command status: status
+2019-08-07 12:34:25,623 INFO  CLI [main] - Command start: start,perfmon
+2019-08-07 12:35:20,937 INFO  CLI [main] - Command status: status
+2019-08-07 12:35:24,705 INFO  CLI [main] - Command start: start,store
+2019-08-07 15:54:13,693 INFO  CLI [main] - Command deploy: deploy
+2019-08-07 15:54:13,725 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 15:54:13,740 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 15:54:17,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 15:54:17,771 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 15:54:17,771 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 15:54:17,771 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 15:54:21,661 INFO  PerfmonClientRemotingServer [PerfmonClientRemotingServer metric registration] - Registered Content Store Client metrics in 0.45 seconds
+2019-08-07 15:54:21,739 INFO  ResourceTransferService [main] - Started Resource Transfer Service: https://172.30.100.148:63212
+2019-08-07 15:54:21,755 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/D:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-08-07 15:54:21,755 INFO  ResourceTransferService [main] - Remote Address For Agent: 172.30.100.148
+2019-08-07 15:54:22,961 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/advancedtextextraction/advancedtextextraction.properties
+2019-08-07 15:54:22,976 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/entityextraction/entityextraction.properties
+2019-08-07 15:54:22,981 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/alm/alm.properties
+2019-08-07 15:54:22,986 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/environments/default/environment.properties
+2019-08-07 15:54:22,988 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/sonar/sonar.properties
+2019-08-07 15:54:22,992 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: lib/customSetQueryLocale.jar
+2019-08-07 15:54:23,001 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/core-app/attivio.core-app.properties
+2019-08-07 15:54:23,006 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/entitysentiment/attivio.entitysentiment.properties
+2019-08-07 15:54:23,010 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/memory/memory.properties
+2019-08-07 15:54:23,013 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: conf/properties/factbook/factbook.properties
+2019-08-07 15:54:24,828 INFO  ResourceTransferService [main] - Stopped Resource Transfer Service
+2019-08-07 16:13:30,710 INFO  CLI [main] - Command status: status
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 16:13:30,864 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 16:13:41,712 INFO  CLI [main] - Command start: start,node,local
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 16:13:41,790 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 16:13:41,806 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 16:13:41,806 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 16:13:41,806 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 16:29:32,969 INFO  CLI [main] - Command showerr: showerr,node,local
+2019-08-07 17:15:05,965 INFO  CLI [main] - Command status: status
+2019-08-07 17:15:06,117 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-07 17:15:06,124 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-07 17:15:06,125 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-07 17:15:06,125 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-07 17:15:06,126 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-07 17:15:06,126 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-07 17:15:06,126 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-07 17:15:06,127 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-07 17:15:06,127 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-07 17:15:14,404 INFO  CLI [main] - Command stop: stop,all
+2019-08-07 17:15:14,435 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=1, pid=11652, agentId=3733283d-b556-4451-bf6b-cdc05add4962], immediate=false
+2019-08-07 17:15:15,756 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=2, pid=6392, agentId=3733283d-b556-4451-bf6b-cdc05add4962], immediate=false
+2019-08-07 17:15:16,747 INFO  AieZooKeeper [main] - Closed 16c6a5b34890002
+2019-08-07 17:15:33,525 INFO  CLI [main] - Command status: status
+2019-08-07 17:15:33,557 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-08-07 17:15:33,619 INFO  AieZooKeeper [main] - Connected zookeeper session 16c6a5b3489000a (previous=null)
+2019-08-21 15:57:44,700 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-21 15:57:44,700 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-21 15:57:44,700 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-21 15:57:44,715 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-21 15:57:44,715 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-21 15:57:44,715 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-21 15:57:44,715 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-21 15:57:44,715 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-21 15:57:44,731 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-21 15:57:45,184 INFO  PatchInit [main] - PATCH 5.5.0.356 loaded
+2019-08-21 15:57:51,498 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-08-21 15:57:51,513 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/D:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-08-21 15:57:51,638 INFO  CuratorFrameworkImpl [main] - Starting
+2019-08-21 15:57:51,685 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-08-21 15:57:51,685 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-08-21 15:57:51,716 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-08-21 15:57:51,716 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=5,5,1565152458037,1565152458037,0,0,0,0,0,0,5
+, data=[]}}
+2019-08-21 15:57:51,732 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-08-21 15:57:51,732 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-08-21 15:57:51,795 INFO  AieZooKeeper [main] - Connected zookeeper session 16cb32e07620002 (previous=null)
+2019-08-21 15:57:51,873 INFO  CLI [main] - Starting Agent CLI
+2019-08-21 16:07:49,959 INFO  CLI [main] - Command status: status
+2019-08-21 16:07:52,635 INFO  CLI [main] - Command start: start,perfmon
+2019-08-21 16:08:20,161 INFO  CLI [main] - Command start: start,store
+2019-08-21 16:17:19,647 INFO  CLI [main] - Command start: start,node,local
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-21 16:17:20,053 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-21 16:17:20,069 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-21 16:17:20,069 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-21 16:24:11,721 INFO  CLI [main] - Command showerr: showerr,node,local
+2019-08-21 16:27:06,437 INFO  CLI [main] - Command start: start,node,local
+2019-08-21 16:27:06,625 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-08-21 16:27:06,632 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-08-21 16:27:06,632 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-08-21 16:27:06,633 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-08-21 16:27:06,633 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-08-21 16:27:06,634 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-08-21 16:27:06,634 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-08-21 16:27:06,634 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-08-21 16:27:06,635 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-08-25 21:52:44,232 WARN  ClientCnxn [main-SendThread(127.0.0.1:16980)] - Client session timed out, have not heard from server in 65023ms for sessionid 0x16cb32e07620001
+2019-08-25 21:52:44,333 INFO  ConnectionStateManager [main-EventThread] - State change: SUSPENDED
+2019-08-25 21:52:44,334 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=CONNECTION_SUSPENDED, data=null}
+2019-08-25 21:52:44,334 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: SUSPENDED
+2019-08-25 21:52:45,350 WARN  ClientCnxn [main-SendThread(127.0.0.1:16980)] - Unable to reconnect to ZooKeeper service, session 0x16cb32e07620002 has expired
+2019-08-25 21:52:45,451 INFO  AieZooKeeper [main-EventThread] - Reconnecting, expired session 16cb32e07620002
+2019-08-25 21:52:45,451 INFO  AieZooKeeper [main-EventThread] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-08-25 21:52:45,503 INFO  AieZooKeeper [main-EventThread] - Connected zookeeper session 16cb32e0762000f (previous=16cb32e07620002)
+2019-08-25 21:52:45,572 WARN  ClientCnxn [main-SendThread(127.0.0.1:16980)] - Unable to reconnect to ZooKeeper service, session 0x16cb32e07620001 has expired
+2019-08-25 21:52:45,572 INFO  ConnectionStateManager [main-EventThread] - State change: LOST
+2019-08-25 21:52:45,572 WARN  ConnectionState [main-EventThread] - Session expired event received
+2019-08-25 21:52:45,572 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=CONNECTION_LOST, data=null}
+2019-08-25 21:52:45,572 WARN  CuratorHelper [Curator-ConnectionStateManager-0] - ATTIVIO-PLATFORM-85 : ZooKeeper connection LOST. 
+2019-08-25 21:52:45,576 INFO  ConnectionStateManager [main-EventThread] - State change: RECONNECTED
+2019-08-25 21:52:45,576 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=CONNECTION_RECONNECTED, data=null}
+2019-08-25 21:52:45,576 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: RECONNECTED
+2019-08-25 21:52:45,577 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-10-23 16:54:01,382 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-23 16:54:01,398 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-23 16:54:01,398 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-23 16:54:01,398 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-23 16:54:01,398 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-23 16:54:01,413 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-23 16:54:01,413 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-23 16:54:01,413 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-23 16:54:01,413 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-23 16:54:02,038 INFO  PatchInit [main] - PATCH 5.5.0.356 loaded
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-23 16:54:49,328 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-23 16:54:49,734 INFO  PatchInit [main] - PATCH 5.5.0.356 loaded
+2019-10-23 16:54:55,265 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-10-23 16:54:55,265 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/D:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-10-23 16:54:55,390 INFO  CuratorFrameworkImpl [main] - Starting
+2019-10-23 16:54:55,437 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-10-23 16:54:55,437 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-10-23 16:54:55,468 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-10-23 16:54:55,484 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=5,5,1565152458037,1565152458037,0,0,0,0,0,0,5
+, data=[]}}
+2019-10-23 16:54:55,484 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-10-23 16:54:55,500 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-10-23 16:54:55,562 INFO  AieZooKeeper [main] - Connected zookeeper session 16df7d3196e0002 (previous=null)
+2019-10-23 16:54:55,640 INFO  CLI [main] - Starting Agent CLI
+2019-10-23 16:55:03,830 INFO  CLI [main] - Command status: status
+2019-10-23 16:55:09,783 INFO  CLI [main] - Command start: start,perfmon
+2019-10-23 16:55:55,454 INFO  CLI [main] - Command status: status
+2019-10-23 16:55:58,932 INFO  CLI [main] - Command start: start,store
+2019-10-23 16:58:35,569 INFO  CLI [main] - Command status: status
+2019-10-23 16:58:35,992 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-23 16:58:36,000 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-23 16:58:36,000 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-23 16:58:36,001 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-23 16:58:36,001 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-23 16:58:36,002 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-23 16:58:36,002 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-23 16:58:36,003 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-23 16:58:36,003 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-23 16:58:43,639 INFO  CLI [main] - Command start: start,node,local
+2019-10-23 16:58:43,702 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-23 16:58:43,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-23 17:25:42,023 INFO  CLI [main] - Command showerr: showerr,node,local
+2019-10-23 17:26:04,019 INFO  CLI [main] - Command showerr: showerr,node,local
+2019-10-23 17:27:32,498 INFO  CLI [main] - Command start: start,node,local
+2019-10-23 17:27:32,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-23 17:27:32,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-23 17:27:32,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-23 17:27:32,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-23 17:27:32,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-23 17:27:32,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-23 17:27:32,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-23 17:27:32,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-23 17:27:32,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:40:54,740 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-24 10:40:54,766 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=4, pid=9728, agentId=44f1af9a-6a26-4bc9-a096-23dcca9431ba], immediate=false
+2019-10-24 10:42:50,032 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 10:42:50,068 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:42:50,076 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:42:50,078 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:42:50,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:42:50,088 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:42:50,092 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:42:50,094 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:42:50,095 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:42:50,097 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:42:53,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:42:57,628 INFO  PerfmonClientRemotingServer [PerfmonClientRemotingServer metric registration] - Registered Content Store Client metrics in 0.05 seconds
+2019-10-24 10:42:58,362 INFO  ResourceTransferService [main] - Started Resource Transfer Service: https://172.30.100.148:58731
+2019-10-24 10:42:58,378 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/D:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-10-24 10:42:58,394 INFO  ResourceTransferService [main] - Remote Address For Agent: 172.30.100.148
+2019-10-24 10:42:59,579 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: lib/signals.jar
+2019-10-24 10:42:59,599 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.30.100.148: lib/jython-standalone-2.7.0.jar
+2019-10-24 10:43:02,414 INFO  ResourceTransferService [main] - Stopped Resource Transfer Service
+2019-10-24 10:43:10,245 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 10:43:10,292 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:43:10,307 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:47:01,620 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-24 10:47:01,642 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=6, pid=11852, agentId=44f1af9a-6a26-4bc9-a096-23dcca9431ba], immediate=false
+2019-10-24 10:47:20,424 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 10:47:20,468 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:47:20,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:47:20,482 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:47:20,483 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:47:20,483 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:47:20,484 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:47:20,485 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:47:20,485 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:47:20,486 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:47:24,255 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:47:24,259 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:47:24,259 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:47:24,260 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:47:24,260 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:47:24,260 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:47:24,261 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:47:24,261 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:47:24,261 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 10:48:49,449 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 10:48:49,631 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 10:48:49,637 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 10:48:49,638 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 10:48:49,638 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 10:48:49,639 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 10:48:49,639 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 10:48:49,639 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 10:48:49,640 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 10:48:49,640 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:17:18,637 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-24 15:17:18,666 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=7, pid=15256, agentId=44f1af9a-6a26-4bc9-a096-23dcca9431ba], immediate=false
+2019-10-24 15:18:03,609 INFO  CLI [main] - Command update: update
+2019-10-24 15:18:03,656 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:18:03,656 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:18:03,656 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:18:03,672 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:18:07,700 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute update update 
+  com.attivio.tools.AttivioConfigurationException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+com.attivio.tools.AttivioConfigurationException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:1003)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:954)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.getReadyToStart(ImportConfiguration.java:402)
+	at com.attivio.tools.ImportConfiguration.get(ImportConfiguration.java:437)
+	at com.attivio.module.clustercontrol.ProjectControl.reloadConfiguration(ProjectControl.java:194)
+	at com.attivio.module.clustercontrol.ClusterControl.loadConfiguration(ClusterControl.java:1619)
+	at com.attivio.module.clustercontrol.ClusterControl.info(ClusterControl.java:1395)
+	at com.attivio.module.clustercontrol.ClusterControl.update(ClusterControl.java:1936)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchUpdate(ClusterControlCLI.java:1813)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1323)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:646)
+	at com.attivio.app.config.global.ConfigurationFactory.configureUri(ConfigurationFactory.java:590)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:573)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:704)
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:997)
+	... 21 more
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+	at com.attivio.app.config.Configuration.addWorkflow(Configuration.java:256)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:339)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:642)
+	... 25 more
+2019-10-24 15:19:53,856 INFO  CLI [main] - Command update: update
+2019-10-24 15:19:53,872 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:19:53,872 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:19:53,872 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:19:53,887 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:19:57,474 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:19:57,479 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:19:57,480 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:19:57,480 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:19:57,480 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:19:57,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:19:57,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:19:57,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:19:57,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:19:58,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\environments\default\environment.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\alm\alm.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\factbook\factbook.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\memory\memory.properties
+2019-10-24 15:20:00,542 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\sonar\sonar.properties
+2019-10-24 15:20:18,393 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:20:18,424 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:20:18,440 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:20:22,107 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:23:37,704 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:23:37,742 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:23:37,749 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:23:37,749 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:23:37,750 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:23:37,750 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:23:37,750 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:23:37,751 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:23:37,751 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:23:37,751 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:23:41,571 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:23:56,991 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:23:57,037 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:23:57,043 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:23:57,043 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:23:57,043 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:23:57,044 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:23:57,044 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:23:57,044 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:23:57,045 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:23:57,045 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:24:00,407 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute deploy deploy 
+  com.attivio.tools.AttivioConfigurationException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+com.attivio.tools.AttivioConfigurationException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:1003)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:954)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.getReadyToStart(ImportConfiguration.java:402)
+	at com.attivio.tools.ImportConfiguration.get(ImportConfiguration.java:437)
+	at com.attivio.module.clustercontrol.ProjectControl.reloadConfiguration(ProjectControl.java:194)
+	at com.attivio.module.clustercontrol.ClusterControl.loadConfiguration(ClusterControl.java:1619)
+	at com.attivio.module.clustercontrol.ClusterControl.info(ClusterControl.java:1395)
+	at com.attivio.module.clustercontrol.ClusterControl.deploy(ClusterControl.java:412)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchDeploy(ClusterControlCLI.java:1943)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1198)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:646)
+	at com.attivio.app.config.global.ConfigurationFactory.configureUri(ConfigurationFactory.java:590)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:573)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:704)
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:997)
+	... 21 more
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+	at com.attivio.app.config.Configuration.addWorkflow(Configuration.java:256)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:339)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:642)
+	... 25 more
+2019-10-24 15:24:49,281 INFO  CLI [main] - Command deploy: deploy,override='true'
+2019-10-24 15:24:49,290 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:24:49,297 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:24:49,297 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:24:49,297 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:24:49,298 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:24:49,298 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:24:49,298 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:24:49,299 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:24:49,299 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:24:52,644 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute deploy deploy override='true' 
+  com.attivio.tools.AttivioConfigurationException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+com.attivio.tools.AttivioConfigurationException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:1003)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:954)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.getReadyToStart(ImportConfiguration.java:402)
+	at com.attivio.tools.ImportConfiguration.get(ImportConfiguration.java:437)
+	at com.attivio.module.clustercontrol.ProjectControl.reloadConfiguration(ProjectControl.java:194)
+	at com.attivio.module.clustercontrol.ClusterControl.loadConfiguration(ClusterControl.java:1619)
+	at com.attivio.module.clustercontrol.ClusterControl.info(ClusterControl.java:1395)
+	at com.attivio.module.clustercontrol.ClusterControl.deploy(ClusterControl.java:400)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchDeploy(ClusterControlCLI.java:1943)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1198)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:646)
+	at com.attivio.app.config.global.ConfigurationFactory.configureUri(ConfigurationFactory.java:590)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:573)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:704)
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:997)
+	... 21 more
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+	at com.attivio.app.config.Configuration.addWorkflow(Configuration.java:256)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:339)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:642)
+	... 25 more
+2019-10-24 15:24:59,067 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 15:24:59,074 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:24:59,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:24:59,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:24:59,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:24:59,082 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:24:59,082 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:24:59,082 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:24:59,083 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:24:59,083 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:25:00,351 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute start start node local 
+  com.attivio.tools.AttivioConfigurationException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+com.attivio.tools.AttivioConfigurationException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:1003)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:954)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.getReadyToStart(ImportConfiguration.java:402)
+	at com.attivio.tools.ImportConfiguration.get(ImportConfiguration.java:437)
+	at com.attivio.module.clustercontrol.ProjectControl.reloadConfiguration(ProjectControl.java:194)
+	at com.attivio.module.clustercontrol.ClusterControl.loadConfiguration(ClusterControl.java:1619)
+	at com.attivio.module.clustercontrol.ClusterControl.info(ClusterControl.java:1395)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1028)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:646)
+	at com.attivio.app.config.global.ConfigurationFactory.configureUri(ConfigurationFactory.java:590)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:573)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:704)
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:997)
+	... 19 more
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+	at com.attivio.app.config.Configuration.addWorkflow(Configuration.java:256)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:339)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:642)
+	... 23 more
+2019-10-24 15:25:48,088 INFO  CLI [main] - Command update: update
+2019-10-24 15:25:48,088 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:25:48,104 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:25:51,465 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute update update 
+  com.attivio.tools.AttivioConfigurationException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+  com.attivio.sdk.AttivioException - CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+com.attivio.tools.AttivioConfigurationException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:1003)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:954)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.loadDirectory(ImportConfiguration.java:952)
+	at com.attivio.tools.ImportConfiguration.getReadyToStart(ImportConfiguration.java:402)
+	at com.attivio.tools.ImportConfiguration.get(ImportConfiguration.java:437)
+	at com.attivio.module.clustercontrol.ProjectControl.reloadConfiguration(ProjectControl.java:194)
+	at com.attivio.module.clustercontrol.ClusterControl.loadConfiguration(ClusterControl.java:1619)
+	at com.attivio.module.clustercontrol.ClusterControl.info(ClusterControl.java:1395)
+	at com.attivio.module.clustercontrol.ClusterControl.checkConfigServerAndStoreOnline(ClusterControl.java:1889)
+	at com.attivio.module.clustercontrol.ClusterControl.update(ClusterControl.java:1908)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchUpdate(ClusterControlCLI.java:1813)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1323)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-1 : Attempting to parse attivio configuration file:/D:/attivio/workspace/signals/./conf/workflow/ingest/ingestForPacs.xml
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:646)
+	at com.attivio.app.config.global.ConfigurationFactory.configureUri(ConfigurationFactory.java:590)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:573)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:704)
+	at com.attivio.tools.ImportConfiguration.loadFile(ImportConfiguration.java:997)
+	... 22 more
+Caused by: com.attivio.sdk.AttivioException: CONFIGURATION-28 : Workflow 'ingestForPacs' has already been defined.  Use override="true" on workflow definition to override.
+	at com.attivio.app.config.Configuration.addWorkflow(Configuration.java:256)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:339)
+	at com.attivio.app.config.global.ConfigurationFactory.configure(ConfigurationFactory.java:642)
+	... 26 more
+2019-10-24 15:35:55,126 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:35:55,126 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:35:55,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:35:58,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:35:58,687 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:35:58,687 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:35:58,687 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:35:58,688 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:35:58,688 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:35:58,688 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:35:58,688 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:35:58,688 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:36:00,066 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:36:00,066 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:36:00,081 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:36:08,880 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:36:08,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:37:11,350 INFO  CLI [main] - Command showerr: showerr,node,local
+2019-10-24 15:39:23,505 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 15:39:23,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:39:23,676 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:39:23,676 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:39:23,676 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:39:23,677 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:39:23,677 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:39:23,677 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:39:23,677 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:39:23,678 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:43:40,802 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:43:40,834 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:43:40,834 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:43:40,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:43:44,673 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:43:44,679 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:43:44,679 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:43:44,679 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:43:44,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:43:44,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:43:44,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:43:44,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:43:44,681 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:43:53,960 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 15:43:54,022 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:43:54,027 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:43:54,027 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:43:54,028 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:43:54,028 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:43:54,028 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:43:54,028 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:43:54,028 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:43:54,029 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:46:58,454 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-24 15:46:58,482 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=9, pid=16436, agentId=44f1af9a-6a26-4bc9-a096-23dcca9431ba], immediate=false
+2019-10-24 15:47:48,408 INFO  CLI [main] - Command deploy: deploy
+2019-10-24 15:47:48,459 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:47:48,468 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:47:48,469 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:47:48,469 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:47:48,469 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:47:48,470 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:47:48,470 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:47:48,470 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:47:48,470 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:47:52,240 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:47:52,244 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:47:52,244 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:47:52,245 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:47:52,245 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:47:52,245 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:47:52,245 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:47:52,245 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:47:52,246 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-24 15:48:02,607 INFO  CLI [main] - Command start: start,node,local
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-24 15:48:02,669 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-25 16:13:17,729 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-25 16:13:17,756 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=10, pid=9012, agentId=44f1af9a-6a26-4bc9-a096-23dcca9431ba], immediate=false
+2019-10-25 16:15:45,252 INFO  CLI [main] - Command update: update
+2019-10-25 16:15:45,315 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-25 16:15:45,330 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-25 16:15:45,330 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-25 16:15:45,346 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-25 16:15:45,346 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-25 16:15:45,346 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-25 16:15:45,346 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-25 16:15:45,362 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-25 16:15:45,362 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-25 16:15:49,915 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-25 16:15:49,920 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-25 16:15:49,920 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-25 16:15:49,920 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-25 16:15:49,921 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-25 16:15:49,921 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-25 16:15:49,921 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-25 16:15:49,921 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-25 16:15:49,922 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-25 16:15:51,889 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\environments\default\environment.properties
+2019-10-25 16:15:51,893 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-25 16:15:51,893 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\alm\alm.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\core-app\attivio.core-app.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entityextraction\entityextraction.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\factbook\factbook.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\memory\memory.properties
+2019-10-25 16:15:51,894 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\sonar\sonar.properties
+2019-10-25 16:34:09,261 INFO  CLI [main] - Command start: start,node,localstart,node,lo
+2019-10-25 16:34:09,433 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-25 16:34:09,449 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-25 16:34:13,198 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute start start node localstart node lo 
+  java.lang.IllegalArgumentException - No nodes in the topology matches node name localstart
+java.lang.IllegalArgumentException: No nodes in the topology matches node name localstart
+	at com.attivio.module.clustercontrol.ClusterControl.checkNodeName(ClusterControl.java:909)
+	at com.attivio.module.clustercontrol.ClusterControl.startNode(ClusterControl.java:877)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchStart(ClusterControlCLI.java:2071)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1040)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+2019-10-25 16:34:44,338 INFO  CLI [main] - Command start: start,node,local
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-25 16:34:44,432 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:02:01,609 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:02:01,799 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:02:01,804 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:02:01,808 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:02:01,814 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:02:01,820 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:02:01,825 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:02:01,829 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:02:01,833 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:02:02,285 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-10-30 17:02:10,290 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-10-30 17:02:10,310 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-10-30 17:02:10,400 INFO  CuratorFrameworkImpl [main] - Starting
+2019-10-30 17:02:14,984 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-10-30 17:02:14,986 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-10-30 17:02:15,023 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-10-30 17:02:15,048 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-10-30 17:02:15,048 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-10-30 17:02:15,069 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-10-30 17:02:15,121 INFO  AieZooKeeper [main] - Connected zookeeper session 16e1bac38190009 (previous=null)
+2019-10-30 17:02:15,253 INFO  CLI [main] - Starting Agent CLI
+2019-10-30 17:02:33,738 INFO  CLI [main] - Command start: start,perfmon
+2019-10-30 17:02:34,164 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:02:34,360 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:02:34,364 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:02:34,368 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:02:34,372 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:02:34,375 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:02:34,379 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:02:34,382 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:02:34,386 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:02:48,365 INFO  CLI [main] - Command start: start,store
+2019-10-30 17:02:48,498 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:02:48,691 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:02:48,695 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:02:48,698 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:02:48,702 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:02:48,706 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:02:48,710 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:02:48,713 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:02:48,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:03:00,251 INFO  CLI [main] - Command status: status
+2019-10-30 17:03:00,333 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:03:00,537 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:03:00,541 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:03:00,545 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:03:00,549 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:03:00,553 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:03:00,557 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:03:00,561 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:03:00,565 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:03:12,385 INFO  CLI [main] - Command deploy: deploy
+2019-10-30 17:03:12,451 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:03:12,641 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:03:12,644 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:03:12,648 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:03:12,651 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:03:12,655 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:03:12,658 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:03:12,662 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:03:12,666 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:03:18,165 ERROR CLI [main] - ATTIVIO-PLATFORM-52 : Failed to execute deploy deploy 
+  com.attivio.sdk.AttivioException - CONFIGURATION-61 : The deployed project has configuration or dynamic changes that have not yet been merged locally.  Run 'update' and fix conflicts before re-running this command.  Or use the 'force' option to override and lose remote changes.
+com.attivio.sdk.AttivioException: CONFIGURATION-61 : The deployed project has configuration or dynamic changes that have not yet been merged locally.  Run 'update' and fix conflicts before re-running this command.  Or use the 'force' option to override and lose remote changes.
+	at com.attivio.module.clustercontrol.ProjectControl.checkThatConfigurationIsUpToDate(ProjectControl.java:1293)
+	at com.attivio.module.clustercontrol.ProjectControl.verifyDeployConfiguration(ProjectControl.java:1225)
+	at com.attivio.module.clustercontrol.ClusterControl.deploy(ClusterControl.java:416)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatchDeploy(ClusterControlCLI.java:1943)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.dispatch(ClusterControlCLI.java:1198)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.go(ClusterControlCLI.java:292)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.driverForMain(ClusterControlCLI.java:494)
+	at com.attivio.module.clustercontrol.ClusterControlCLI.main(ClusterControlCLI.java:325)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:62)
+	at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+	at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:16)
+2019-10-30 17:03:26,941 INFO  CLI [main] - Command deploy: deploy,force
+2019-10-30 17:03:27,005 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:03:27,195 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:03:27,198 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:03:27,202 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:03:27,205 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:03:27,209 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:03:27,213 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:03:27,217 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:03:27,221 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:03:33,263 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:03:33,455 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:03:33,459 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:03:33,462 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:03:33,466 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:03:33,470 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:03:33,473 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:03:33,477 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:03:33,481 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:03:44,968 INFO  PerfmonClientRemotingServer [PerfmonClientRemotingServer metric registration] - Registered Content Store Client metrics in 0.04 seconds
+2019-10-30 17:03:48,415 INFO  ResourceTransferService [main] - Started Resource Transfer Service: https://192.168.56.1:65474
+2019-10-30 17:03:48,689 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-10-30 17:03:48,698 INFO  ResourceTransferService [main] - Remote Address For Agent: 192.168.56.1
+2019-10-30 17:03:56,662 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/advancedtextextraction/advancedtextextraction.properties
+2019-10-30 17:03:56,682 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/entityextraction/entityextraction.properties
+2019-10-30 17:03:56,686 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/alm/alm.properties
+2019-10-30 17:03:56,690 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: lib/signals.jar
+2019-10-30 17:03:56,694 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/environments/default/environment.properties
+2019-10-30 17:03:56,698 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/sonar/sonar.properties
+2019-10-30 17:03:56,701 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/memory/memory.properties
+2019-10-30 17:03:56,704 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: lib/customSetQueryLocale.jar
+2019-10-30 17:03:56,708 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/core-app/attivio.core-app.properties
+2019-10-30 17:03:56,712 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/entitysentiment/attivio.entitysentiment.properties
+2019-10-30 17:03:56,715 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: conf/properties/factbook/factbook.properties
+2019-10-30 17:03:56,719 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 192.168.56.1: lib/jython-standalone-2.7.0.jar
+2019-10-30 17:04:00,856 INFO  ResourceTransferService [main] - Stopped Resource Transfer Service
+2019-10-30 17:04:01,121 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-10-30 17:04:12,936 INFO  CLI [main] - Command start: start,node,local
+2019-10-30 17:04:13,058 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:04:13,303 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:04:13,308 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:04:13,312 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:04:13,317 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:04:13,323 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:04:13,329 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:04:13,336 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:04:13,342 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:04:52,919 INFO  CLI [main] - Command status: status
+2019-10-30 17:04:53,041 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:04:53,248 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:04:53,252 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:04:53,257 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:04:53,261 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:04:53,265 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:04:53,270 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:04:53,274 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:04:53,279 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:09:36,740 INFO  CLI [main] - Command stop: stop,node,local
+2019-10-30 17:09:36,796 INFO  AgentClient [main] - Initiating shutdown of handle ProcessHandle [handle=5, pid=15980, agentId=345321d4-47d3-4c1e-bc6f-ef09b0345fc4], immediate=false
+2019-10-30 17:09:58,228 INFO  CLI [main] - Command start: start,node,locla
+2019-10-30 17:09:58,465 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:09:58,656 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:09:58,660 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:09:58,663 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:09:58,667 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:09:58,670 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:09:58,674 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:09:58,677 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:09:58,681 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:10:08,482 INFO  CLI [main] - Command start: start,node,local
+2019-10-30 17:10:08,599 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:10:08,817 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:10:08,822 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:10:08,826 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:10:08,832 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:10:08,838 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:10:08,842 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:10:08,846 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:10:08,850 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:10:42,466 INFO  CLI [main] - Command status: status
+2019-10-30 17:10:42,586 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:10:42,794 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:10:42,798 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:10:42,802 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:10:42,805 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:10:42,808 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:10:42,813 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:10:42,817 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:10:42,820 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:10:53,372 INFO  CLI [main] - Command start: start,node,local
+2019-10-30 17:10:53,476 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:10:53,686 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:10:53,690 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:10:53,694 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:10:53,698 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:10:53,701 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:10:53,705 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:10:53,709 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:10:53,712 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:11:25,599 INFO  CLI [main] - Command update: update
+2019-10-30 17:11:25,694 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:11:25,883 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:11:25,886 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:11:25,890 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:11:25,893 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:11:25,897 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:11:25,900 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:11:25,904 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:11:25,907 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:11:31,109 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:11:31,299 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:11:31,302 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:11:31,306 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:11:31,309 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:11:31,313 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:11:31,316 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:11:31,319 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:11:31,323 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:11:34,757 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\environments\default\environment.properties
+2019-10-30 17:11:34,940 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:11:34,943 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\alm\alm.properties
+2019-10-30 17:11:34,945 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:11:34,948 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:11:34,950 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:11:34,952 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\factbook\factbook.properties
+2019-10-30 17:11:34,955 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\memory\memory.properties
+2019-10-30 17:11:34,957 INFO  ImportConfiguration [main] - Found and adding properties file .\.update\conf\properties\sonar\sonar.properties
+2019-10-30 17:11:48,468 INFO  CLI [main] - Command start: start,node,local
+2019-10-30 17:11:48,575 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:11:48,772 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:11:48,776 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:11:48,779 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:11:48,782 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:11:48,787 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:11:48,791 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:11:48,795 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:11:48,799 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:12:13,816 INFO  CLI [main] - Command status: status
+2019-10-30 17:12:13,911 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:12:14,122 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:12:14,126 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:12:14,130 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:12:14,134 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:12:14,138 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:12:14,142 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:12:14,147 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:12:14,151 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-10-30 17:12:52,624 INFO  CLI [main] - Command status: status
+2019-10-30 17:12:52,725 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-10-30 17:12:52,955 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-10-30 17:12:52,958 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-10-30 17:12:52,962 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-10-30 17:12:52,966 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-10-30 17:12:52,970 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-10-30 17:12:52,973 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-10-30 17:12:52,977 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-10-30 17:12:52,980 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-01 11:34:55,325 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-01 11:34:55,583 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-01 11:34:55,589 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-01 11:34:55,601 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-01 11:34:55,608 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-01 11:34:55,615 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-01 11:34:55,622 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-01 11:34:55,629 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-01 11:34:55,636 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-01 11:34:56,366 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-01 11:35:06,591 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-01 11:35:06,604 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-01 11:35:06,739 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-01 11:35:06,816 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-01 11:35:06,817 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-01 11:35:06,859 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-01 11:35:06,883 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-01 11:35:06,884 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-01 11:35:06,899 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-01 11:35:06,954 INFO  AieZooKeeper [main] - Connected zookeeper session 16e2496d1b30002 (previous=null)
+2019-11-01 11:35:07,065 INFO  CLI [main] - Starting Agent CLI
+2019-11-01 11:36:29,939 INFO  CLI [main] - Command start: start,perfmon
+2019-11-01 11:36:32,286 INFO  CLI [main] - Command start: start,store
+2019-11-01 11:36:37,439 INFO  CLI [main] - Command start: start,node,local
+2019-11-04 10:27:56,443 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-04 10:27:56,630 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-04 10:27:56,630 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-04 10:27:56,646 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-04 10:27:56,646 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-04 10:27:56,661 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-04 10:27:56,661 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-04 10:27:56,661 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-04 10:27:56,661 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-04 10:27:57,146 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-04 10:28:07,846 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-04 10:28:07,862 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-04 10:28:07,940 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-04 10:28:13,579 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-04 10:28:13,579 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-04 10:28:13,626 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-04 10:28:13,657 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-04 10:28:13,657 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-04 10:28:13,657 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-04 10:28:13,720 INFO  AieZooKeeper [main] - Connected zookeeper session 16e342b5d8f0002 (previous=null)
+2019-11-04 10:28:13,814 INFO  CLI [main] - Starting Agent CLI
+2019-11-04 10:28:34,215 INFO  CLI [main] - Command start: start,perfmon
+2019-11-04 10:28:38,324 INFO  CLI [main] - Command start: start,store
+2019-11-04 10:28:41,042 INFO  CLI [main] - Command start: start,node,local
+2019-11-04 10:29:49,539 INFO  CLI [main] - Command status: status
+2019-11-04 10:29:49,883 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-04 10:29:50,094 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-04 10:29:50,099 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-04 10:29:50,102 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-04 10:29:50,106 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-04 10:29:50,110 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-04 10:29:50,114 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-04 10:29:50,118 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-04 10:29:50,122 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-04 11:34:31,314 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-04 11:34:31,501 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-04 11:34:31,501 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-04 11:34:31,517 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-04 11:34:31,517 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-04 11:34:31,532 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-04 11:34:31,532 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-04 11:34:31,532 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-04 11:34:31,548 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-04 11:34:32,063 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-04 11:35:04,368 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-04 11:35:04,384 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-04 11:35:04,525 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-04 11:35:20,724 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-04 11:35:20,724 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-04 11:35:20,771 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-04 11:35:20,786 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-04 11:35:20,786 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-04 11:35:20,802 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-04 11:35:20,865 INFO  AieZooKeeper [main] - Connected zookeeper session 16e345bfbb00002 (previous=null)
+2019-11-04 11:35:20,958 INFO  CLI [main] - Starting Agent CLI
+2019-11-04 11:35:25,692 INFO  CLI [main] - Command start: start,perfmon
+2019-11-04 11:35:27,946 INFO  CLI [main] - Command start: start,store
+2019-11-04 11:35:30,426 INFO  CLI [main] - Command start: start,node,local
+2019-11-04 11:36:44,457 INFO  CLI [main] - Command status: status
+2019-11-04 11:36:44,909 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-04 11:36:45,140 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-04 11:36:45,145 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-04 11:36:45,150 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-04 11:36:45,154 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-04 11:36:45,157 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-04 11:36:45,161 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-04 11:36:45,164 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-04 11:36:45,168 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-05 14:54:31,311 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-05 14:54:31,563 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-05 14:54:31,569 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-05 14:54:31,581 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-05 14:54:31,589 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-05 14:54:31,597 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-05 14:54:31,602 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-05 14:54:31,607 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-05 14:54:31,612 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-05 14:54:32,294 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-05 14:54:42,846 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-05 14:54:42,857 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-05 14:54:42,995 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-05 14:54:45,378 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-05 14:54:45,379 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-05 14:54:45,418 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-05 14:54:45,438 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-05 14:54:45,438 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-05 14:54:45,449 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-05 14:54:45,501 INFO  AieZooKeeper [main] - Connected zookeeper session 16e3927d13e0002 (previous=null)
+2019-11-05 14:54:45,601 INFO  CLI [main] - Starting Agent CLI
+2019-11-05 14:54:57,774 INFO  CLI [main] - Command start: start,perfmon
+2019-11-05 14:55:00,768 INFO  CLI [main] - Command start: start,store
+2019-11-05 14:55:03,901 INFO  CLI [main] - Command start: start,node,local
+2019-11-05 14:55:30,478 INFO  CLI [main] - Command status: status
+2019-11-05 14:55:31,088 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-05 14:55:31,489 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-05 14:55:31,497 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-05 14:55:31,504 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-05 14:55:31,515 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-05 14:55:31,525 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-05 14:55:31,533 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-05 14:55:31,540 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-05 14:55:31,550 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-05 14:55:46,103 INFO  CLI [main] - Command status: status
+2019-11-05 14:55:46,227 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-05 14:55:46,536 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-05 14:55:46,542 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-05 14:55:46,548 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-05 14:55:46,554 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-05 14:55:46,559 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-05 14:55:46,565 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-05 14:55:46,572 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-05 14:55:46,577 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:38:32,970 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:38:33,191 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:38:33,196 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:38:33,208 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:38:33,214 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:38:33,220 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:38:33,225 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:38:33,230 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:38:33,235 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:38:33,933 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-08 10:38:50,990 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-08 10:38:51,008 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-08 10:38:51,211 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-08 10:38:51,317 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-08 10:38:51,318 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-08 10:38:51,368 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-08 10:38:51,397 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-08 10:38:51,398 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-08 10:38:51,409 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-08 10:38:51,461 INFO  AieZooKeeper [main] - Connected zookeeper session 16e4895ba290002 (previous=null)
+2019-11-08 10:38:51,594 INFO  CLI [main] - Starting Agent CLI
+2019-11-08 10:39:25,535 INFO  CLI [main] - Command start: start,perfmon
+2019-11-08 10:39:28,514 INFO  CLI [main] - Command start: start,store
+2019-11-08 10:39:35,818 INFO  CLI [main] - Command start: start,node,local
+2019-11-08 10:39:41,497 INFO  CLI [main] - Command status: status
+2019-11-08 10:39:44,293 INFO  CLI [main] - Command status: status
+2019-11-08 10:39:50,079 INFO  CLI [main] - Command status: status
+2019-11-08 10:39:50,431 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:39:50,649 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:39:50,653 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:39:50,657 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:39:50,662 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:39:50,666 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:39:50,670 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:39:50,674 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:39:50,678 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:40:02,422 INFO  CLI [main] - Command status: status
+2019-11-08 10:40:02,547 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:40:02,953 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:40:02,960 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:40:02,967 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:40:02,973 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:40:02,979 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:40:02,986 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:40:02,994 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:40:03,001 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:40:11,451 INFO  CLI [main] - Command status: status
+2019-11-08 10:40:11,525 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:40:11,923 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:40:11,931 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:40:11,939 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:40:11,949 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:40:11,956 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:40:11,962 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:40:11,970 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:40:11,977 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:40:22,406 INFO  CLI [main] - Command status: status
+2019-11-08 10:40:22,446 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:40:22,680 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:40:22,686 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:40:22,691 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:40:22,695 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:40:22,701 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:40:22,707 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:40:22,712 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:40:22,717 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-08 10:41:50,477 INFO  CLI [main] - Command status: status
+2019-11-08 10:41:50,618 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-08 10:41:50,803 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-08 10:41:50,808 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-08 10:41:50,811 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-08 10:41:50,815 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-08 10:41:50,818 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-08 10:41:50,822 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-08 10:41:50,826 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-08 10:41:50,831 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-14 22:18:50,537 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-14 22:18:50,739 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-14 22:18:50,743 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-14 22:18:50,755 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-14 22:18:50,761 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-14 22:18:50,767 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-14 22:18:50,771 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-14 22:18:50,775 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-14 22:18:50,779 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-14 22:18:51,437 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-14 22:19:00,297 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-14 22:19:00,311 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-14 22:19:00,403 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-14 22:19:06,057 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-14 22:19:06,059 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-14 22:19:06,102 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-14 22:19:06,120 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-14 22:19:06,120 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-14 22:19:06,133 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-14 22:19:06,187 INFO  AieZooKeeper [main] - Connected zookeeper session 16e6a390a810002 (previous=null)
+2019-11-14 22:19:06,367 INFO  CLI [main] - Starting Agent CLI
+2019-11-14 22:31:38,027 INFO  CLI [main] - Command start: start,perfmon
+2019-11-14 22:31:41,785 INFO  CLI [main] - Command start: start,store
+2019-11-14 22:31:45,382 INFO  CLI [main] - Command start: start,node,local
+2019-11-15 09:35:10,657 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-15 09:35:10,889 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-15 09:35:10,894 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-15 09:35:10,905 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-15 09:35:10,910 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-15 09:35:10,916 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-15 09:35:10,921 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-15 09:35:10,926 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-15 09:35:10,930 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-15 09:35:11,615 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-15 09:35:24,400 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-15 09:35:24,414 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-15 09:35:24,513 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-15 09:35:29,211 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-15 09:35:29,213 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-15 09:35:29,272 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-15 09:35:29,325 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1572246932733,1572246932733,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-15 09:35:29,326 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-15 09:35:29,330 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-15 09:35:29,382 INFO  AieZooKeeper [main] - Connected zookeeper session 16e6cae88930002 (previous=null)
+2019-11-15 09:35:29,536 INFO  CLI [main] - Starting Agent CLI
+2019-11-15 09:35:38,165 INFO  CLI [main] - Command start: start,perfmon
+2019-11-15 09:35:40,767 INFO  CLI [main] - Command start: start,store
+2019-11-15 09:35:44,314 INFO  CLI [main] - Command start: start,node,local
+2019-11-20 10:28:10,745 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:28:10,769 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:28:10,771 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:28:10,773 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:28:10,775 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:28:10,777 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:28:10,779 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:28:10,780 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:28:10,781 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:28:11,338 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-20 10:28:17,988 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-20 10:28:18,209 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-20 10:28:18,363 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-20 10:28:18,438 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-20 10:28:18,440 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-20 10:28:18,461 WARN  ZKPaths [main] - The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead.
+2019-11-20 10:28:18,484 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-20 10:28:18,504 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1574216898428,1574216898428,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-20 10:28:18,504 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-20 10:28:18,523 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-20 10:28:18,575 INFO  AieZooKeeper [main] - Connected zookeeper session 16e86a396850002 (previous=null)
+2019-11-20 10:28:18,721 INFO  CLI [main] - Starting Agent CLI
+2019-11-20 10:28:54,513 INFO  CLI [main] - Command start: start,perfmon
+2019-11-20 10:29:00,608 INFO  CLI [main] - Command start: start,store
+2019-11-20 10:29:05,588 INFO  CLI [main] - Command start: start,node,local
+2019-11-20 10:36:44,502 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:36:44,543 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:36:44,551 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:36:44,558 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:36:44,568 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:36:44,575 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:36:44,580 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:36:44,585 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:36:44,589 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:36:45,343 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-20 10:36:55,068 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-20 10:36:55,081 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-20 10:36:55,319 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-20 10:36:55,417 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-20 10:36:55,419 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-20 10:36:55,471 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-20 10:36:55,501 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1574216898428,1574216898428,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-20 10:36:55,502 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-20 10:36:55,514 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-20 10:36:55,567 INFO  AieZooKeeper [main] - Connected zookeeper session 16e86aa32240002 (previous=null)
+2019-11-20 10:36:55,783 INFO  CLI [main] - Starting Agent CLI
+2019-11-20 10:38:07,403 INFO  CLI [main] - Command status: status
+2019-11-20 10:38:11,484 INFO  CLI [main] - Command start: start,perfmon
+2019-11-20 10:38:15,449 INFO  CLI [main] - Command start: start,store
+2019-11-20 10:38:19,322 INFO  CLI [main] - Command start: start,node,local
+2019-11-20 10:39:30,908 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:39:30,932 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:39:30,933 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:39:30,934 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:39:30,936 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:39:30,938 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:39:30,939 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:39:30,941 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:39:30,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:39:31,506 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2019-11-20 10:39:37,828 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2019-11-20 10:39:37,858 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-20 10:39:38,028 INFO  CuratorFrameworkImpl [main] - Starting
+2019-11-20 10:39:38,099 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2019-11-20 10:39:38,101 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2019-11-20 10:39:38,136 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2019-11-20 10:39:38,157 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1574216898428,1574216898428,0,0,0,0,0,0,6
+, data=[]}}
+2019-11-20 10:39:38,157 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2019-11-20 10:39:38,167 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2019-11-20 10:39:38,219 INFO  AieZooKeeper [main] - Connected zookeeper session 16e86aa3224000b (previous=null)
+2019-11-20 10:39:38,357 INFO  CLI [main] - Starting Agent CLI
+2019-11-20 10:39:44,110 INFO  CLI [main] - Command status: status
+2019-11-20 10:39:48,009 INFO  CLI [main] - Command deploy: deploy
+2019-11-20 10:39:48,048 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:39:48,069 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:39:48,070 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:39:48,071 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:39:48,072 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:39:48,072 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:39:48,073 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:39:48,074 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:39:48,075 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:39:52,706 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:39:52,728 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:39:52,729 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:39:52,729 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:39:52,730 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:39:52,731 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:39:52,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:39:52,732 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:39:52,733 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:39:57,714 WARN  ZKPaths [main] - The version of ZooKeeper being used doesn't support Container nodes. CreateMode.PERSISTENT will be used instead.
+2019-11-20 10:39:58,369 INFO  PerfmonClientRemotingServer [PerfmonClientRemotingServer metric registration] - Registered Content Store Client metrics in 0.63 seconds
+2019-11-20 10:39:58,807 INFO  ResourceTransferService [main] - Started Resource Transfer Service: https://172.19.74.24:50034
+2019-11-20 10:39:58,832 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2019-11-20 10:39:58,847 INFO  ResourceTransferService [main] - Remote Address For Agent: 172.19.74.24
+2019-11-20 10:40:00,328 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/advancedtextextraction/advancedtextextraction.properties
+2019-11-20 10:40:00,348 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/entityextraction/entityextraction.properties
+2019-11-20 10:40:00,353 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/alm/alm.properties
+2019-11-20 10:40:00,358 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: lib/signals.jar
+2019-11-20 10:40:00,364 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/environments/default/environment.properties
+2019-11-20 10:40:00,368 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/sonar/sonar.properties
+2019-11-20 10:40:00,372 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/memory/memory.properties
+2019-11-20 10:40:00,376 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: lib/customSetQueryLocale.jar
+2019-11-20 10:40:00,382 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/core-app/attivio.core-app.properties
+2019-11-20 10:40:00,387 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/entitysentiment/attivio.entitysentiment.properties
+2019-11-20 10:40:00,391 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: conf/properties/factbook/factbook.properties
+2019-11-20 10:40:00,394 INFO  ResourceTransferService [ResourceTransferService] - Resource transfer request from 172.19.74.24: lib/jython-standalone-2.7.0.jar
+2019-11-20 10:40:02,939 INFO  ResourceTransferService [main] - Stopped Resource Transfer Service
+2019-11-20 10:40:14,836 INFO  CLI [main] - Command start: start,node,local
+2019-11-20 10:40:14,911 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:40:14,938 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:40:14,938 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:40:14,939 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:40:14,940 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:40:14,941 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:40:14,942 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:40:14,943 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:40:14,944 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:40:24,555 INFO  CLI [main] - Command status: status
+2019-11-20 10:40:24,630 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:40:24,658 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:40:24,659 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:40:24,659 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:40:24,661 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:40:24,662 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:40:24,662 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:40:24,663 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:40:24,664 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:40:48,796 INFO  CLI [main] - Command status: status
+2019-11-20 10:40:48,847 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:40:48,871 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:40:48,872 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:40:48,872 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:40:48,873 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:40:48,874 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:40:48,874 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:40:48,875 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:40:48,876 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2019-11-20 10:41:16,795 INFO  CLI [main] - Command status: status
+2019-11-20 10:41:16,856 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2019-11-20 10:41:16,880 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2019-11-20 10:41:16,880 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2019-11-20 10:41:16,881 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2019-11-20 10:41:16,882 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2019-11-20 10:41:16,883 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2019-11-20 10:41:16,883 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2019-11-20 10:41:16,884 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2019-11-20 10:41:16,885 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2020-06-18 11:58:43,182 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2020-06-18 11:58:43,215 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2020-06-18 11:58:43,216 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2020-06-18 11:58:43,218 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2020-06-18 11:58:43,220 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2020-06-18 11:58:43,222 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2020-06-18 11:58:43,223 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2020-06-18 11:58:43,224 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2020-06-18 11:58:43,225 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties
+2020-06-18 11:58:43,921 INFO  PatchInit [main] - PATCH 5.5.0.330 loaded
+2020-06-18 11:58:50,918 INFO  ServiceFactory [main] - Resetting service connections, listeners, and client parameters
+2020-06-18 11:58:50,928 INFO  CuratorHelper [main] - Loading service definitions from jar:file:/C:/attivio/aie_5.5.0/lib/aie-core-api.jar!/com/attivio/service/aie-services.properties
+2020-06-18 11:58:51,085 INFO  CuratorFrameworkImpl [main] - Starting
+2020-06-18 11:58:55,659 INFO  ConnectionStateManager [main-EventThread] - State change: CONNECTED
+2020-06-18 11:58:55,660 INFO  CuratorHelper [Curator-ConnectionStateManager-0] - Connection state change: CONNECTED
+2020-06-18 11:58:55,697 INFO  RuntimeStatus [main] - Starting cluster runtime watching
+2020-06-18 11:58:55,718 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=NODE_ADDED, data=ChildData{path='/cluster/runtime', stat=6,6,1574216898428,1574216898428,0,0,0,0,0,0,6
+, data=[]}}
+2020-06-18 11:58:55,718 INFO  RuntimeStatus [Curator-TreeCache-0] - Received event TreeCacheEvent{type=INITIALIZED, data=null}
+2020-06-18 11:58:55,729 INFO  AieZooKeeper [main] - Connecting to zookeeper on localhost:16980 with connect timeout of 600000 milliseconds
+2020-06-18 11:58:55,781 INFO  AieZooKeeper [main] - Connected zookeeper session 172c5937c510002 (previous=null)
+2020-06-18 11:58:55,905 INFO  CLI [main] - Starting Agent CLI
+2020-06-18 11:59:19,164 INFO  CLI [main] - Command start: start,perfmon
+2020-06-18 11:59:24,049 INFO  CLI [main] - Command start: start,store
+2020-06-18 11:59:28,863 INFO  CLI [main] - Command start: start,node,local
+2020-06-18 12:03:03,646 INFO  CLI [main] - Command status: status
+2020-06-18 12:03:04,013 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\environments\default\environment.properties
+2020-06-18 12:03:04,034 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\advancedtextextraction\advancedtextextraction.properties
+2020-06-18 12:03:04,035 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\alm\alm.properties
+2020-06-18 12:03:04,036 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\core-app\attivio.core-app.properties
+2020-06-18 12:03:04,036 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entityextraction\entityextraction.properties
+2020-06-18 12:03:04,036 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\entitysentiment\attivio.entitysentiment.properties
+2020-06-18 12:03:04,037 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\factbook\factbook.properties
+2020-06-18 12:03:04,037 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\memory\memory.properties
+2020-06-18 12:03:04,038 INFO  ImportConfiguration [main] - Found and adding properties file .\conf\properties\sonar\sonar.properties

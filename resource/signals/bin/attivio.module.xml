@@ -1,0 +1,9 @@
+
+<attivio>
+  <module name="module-Signals" version="-1">
+    <description>Module Signals.</description>
+    <components>
+      <component class="com.attivio.pkidsdanalytics.ingest.transformer.usePython"/>
+    </components>
+  </module>
+</attivio>

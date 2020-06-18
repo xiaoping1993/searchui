@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<connector xmlns="http://www.attivio.com/configuration/type/connectorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="deleteTable" xsi:schemaLocation="http://www.attivio.com/configuration/type/connectorType classpath:/xsd/type/connectorType.xsd http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <scanner class="com.attivio.connector.DeleteByQueryScanner">
+    <properties xmlns="http://www.attivio.com/configuration/type/componentType">
+      <property name="queryString" value="OR(table:vtezs)"/>
+      <list name="zones"/>
+    </properties>
+  </scanner>
+  <feeder class="com.attivio.connector.DirectMessagePublisher">
+    <properties xmlns="http://www.attivio.com/configuration/type/componentType">
+      <map name="sizeToDomain"/>
+      <list name="documentStoreFilterFields">
+        <entry value="table"/>
+      </list>
+    </properties>
+  </feeder>
+</connector>

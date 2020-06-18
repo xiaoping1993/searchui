@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="processHtml" class="com.attivio.advancedtextextraction.html.ProcessHtml" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <properties>
+    <map name="fieldMapping">
+      <property name="bytes" value="text"/>
+      <property name="input" value="doctype"/>
+    </map>
+    <property name="removeBoilerplate" value="true"/>
+    <list name="classesToExclude">
+      <entry value="noindex"/>
+      <entry value="hidden"/>
+      <entry value="ms-cui-hidden"/>
+      <entry value="ms-hidden"/>
+    </list>
+  </properties>
+</component>

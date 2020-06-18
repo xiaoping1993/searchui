@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="extractRegexSizes" class="com.attivio.platform.transformer.ingest.field.ExtractRegexPatterns" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType http://www.attivio.com/configuration/type/componentType.xsd ">
+  <properties>
+    <map name="rules">
+      <property name="([\w-/α-ω\sⅠ-Ⅹ&quot;“”:：，、.&gt;＞＜&lt;*×xX\u4e00-\u9fa5]+[0-9.\s**×xX]+[\scmd厘毫分][m米])$" value="resultsizes_s"/>
+      <property name="([\w-/α-ω\sⅠ-Ⅹ&quot;“”:：，、.&gt;＞＜&lt;*×xX\u4e00-\u9fa5]+[0-9.\s**×xX]+[cmd厘毫分]?[m米])[^HhlLom]" value="resultsizes_s"/>
+    </map>
+    <list name="input">
+      <entry value="Positive_diagnosis_s"/>
+      <entry value="text"/>
+      <entry value="Positive_impression_s"/>
+    </list>
+  </properties>
+</component>

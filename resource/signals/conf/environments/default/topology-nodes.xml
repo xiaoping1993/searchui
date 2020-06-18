@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<attivio xmlns="http://www.attivio.com/configuration/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.attivio.com/configuration/config classpath:/xsd/config.xsd">
+  <topology agentPort="16999" projectdir=".">
+    <zookeepers>
+      <zookeeper baseport="16980"/>
+    </zookeepers>
+    <hdfs/>
+    <hbase/>
+    <yarn/>
+    <store baseport="16970" gc="CMS"/>
+    <perfmonserver baseport="16960"/>
+    <nodes>
+      <node name="local" host="localhost" baseport="17000"/>
+    </nodes>
+    <nodesets>
+      <nodeset name="admin">
+        <!--Generated: The admin nodeset must contain exactly one node.-->
+        <include name="local"/>
+      </nodeset>
+      <nodeset name="connectors">
+        <include name="local"/>
+      </nodeset>
+      <nodeset name="searchers">
+        <include name="local"/>
+      </nodeset>
+      <nodeset name="ingestion">
+        <include name="local"/>
+        <jvmArgument value="-XX:MaxGCPauseMillis=30000"/>
+      </nodeset>
+    </nodesets>
+  </topology>
+</attivio>

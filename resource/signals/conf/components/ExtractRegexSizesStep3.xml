@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ExtractRegexSizesStep3" class="com.attivio.platform.transformer.ingest.field.ExtractRegexPatterns" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType http://www.attivio.com/configuration/type/componentType.xsd ">
+  <properties>
+    <map name="rules">
+      <property name="\s*([\d.]+)\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*" value="x_value_f"/>
+      <property name="\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*([\d.]+)\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*" value="y_value_f"/>
+      <property name="\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*([\d.]+)\s*[\scm分毫厘][m米]\s*" value="z_value_f"/>
+      <property name="\s*[\d.]+\s*([\scm分毫厘][m米])\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*" value="x_unit_s"/>
+      <property name="\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*([\scm分毫厘][m米])\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*" value="y_unit_s"/>
+      <property name="\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*([\scm分毫厘][m米])\s*" value="z_unit_s"/>
+      <property name="^\s*([\d.]+)\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*$" value="x_value_f"/>
+      <property name="^\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*([\d.]+)\s*[\scm分毫厘][m米]\s*$" value="y_value_f"/>
+      <property name="^\s*[\d.]+\s*([\scm分毫厘][m米])\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*$" value="x_unit_s"/>
+      <property name="^\s*[\d.]+\s*[\scm分毫厘][m米]\s*[*×xX]\s*[\d.]+\s*([\scm分毫厘][m米])\s*$" value="y_unit_s"/>
+      <property name="^\s*([\d.]+)\s*[\scm分毫厘][m米]\s*$" value="x_value_f"/>
+      <property name="^\s*[\d.]+\s*([\scm分毫厘][m米])\s*$" value="x_unit_s"/>
+      <property name="^\s*([\d.])+\s*[*×xX]\s*[\d.]+\s*[\scm分毫厘][m米]\s*$" value="x_value_f"/>
+      <property name="^\s*[\d.]+\s*[*×xX]\s*([\d.])+\s*[\scm分毫厘][m米]\s*$" value="y_value_f"/>
+      <property name="^\s*[\d.]+\s*[*×xX]\s*[\d.]+\s*([\scm分毫厘][m米])\s*$" value="y_unit_s"/>
+    </map>
+    <list name="input">
+      <entry value="sizesvalueunit_s"/>
+    </list>
+  </properties>
+</component>

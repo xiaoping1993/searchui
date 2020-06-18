@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workflow xmlns="http://www.attivio.com/configuration/type/workflowType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ingestForPacs" type="ingest" xsi:schemaLocation="http://www.attivio.com/configuration/type/workflowType http://www.attivio.com/configuration/type/workflowType.xsd ">
+  <description>asap sonar</description>
+  <subflow name="textExtraction"/>
+  <subflow name="textExtractionPostProcessing"/>
+  <subflow name="ingestInit"/>
+  <subflow name="ingestPreProcess"/>
+  <subflow name="attivioLinguistics"/>
+  <subflow name="ingestPostProcess"/>
+  <documentTransformer name="extractInpatientReportToResultMVS"/>
+  <subflow name="indexer"/>
+</workflow>

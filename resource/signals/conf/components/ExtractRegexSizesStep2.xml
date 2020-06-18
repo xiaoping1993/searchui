@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="ExtractRegexSizesStep2" class="com.attivio.platform.transformer.ingest.field.ExtractRegexPatterns" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType http://www.attivio.com/configuration/type/componentType.xsd ">
+  <properties>
+    <map name="rules">
+      <property name="([^\d]*)\d[\d.*×xXcm\s厘米分毫]+" value="sizename_s"/>
+      <property name="[^\d]*(\d[\d.*×xXcm\s厘米分毫]+)" value="sizesvalueunit_s"/>
+    </map>
+    <list name="input">
+      <entry value="resultsizes_s"/>
+    </list>
+  </properties>
+</component>

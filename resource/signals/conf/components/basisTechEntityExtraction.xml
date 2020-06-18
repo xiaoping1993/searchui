@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="basisTechEntityExtraction" class="com.attivio.basistech.transformer.ingest.linguistics.BasisTechEntityExtractor" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType classpath:/xsd/type/componentType.xsd">
+  <properties>
+    <list name="input">
+      <entry value="text"/>
+    </list>
+    <list name="languages">
+      <entry value="*"/>
+    </list>
+    <property name="outputAsScope" value="true"/>
+    <map name="entityMappings">
+      <property name="LOCATION" value="%ENTITY_LOCATION%"/>
+      <property name="GPE" value="%ENTITY_LOCATION%"/>
+      <property name="ORGANIZATION" value="%ENTITY_COMPANY%"/>
+      <property name="PERSON" value="%ENTITY_PERSON%"/>
+      <property name="PRODUCT" value="%ENTITY_PRODUCT%"/>
+      <property name="TITLE" value="%ENTITY_TITLE%"/>
+      <property name="NATIONALITY" value="%ENTITY_NATIONALITY%"/>
+      <property name="RELIGION" value="%ENTITY_RELIGION%"/>
+      <property name="IDENTIFIER:CREDIT_CARD_NUM" value="%ENTITY_CREDIT_CARD%"/>
+      <property name="IDENTIFIER:MONEY" value="%ENTITY_MONEY%"/>
+      <property name="IDENTIFIER:PERSONAL_ID_NUM" value="%ENTITY_PERSON_ID%"/>
+      <property name="IDENTIFIER:PHONE_NUMBER" value="%ENTITY_PHONE_NUMBER%"/>
+      <property name="IDENTIFIER:EMAIL" value="%ENTITY_EMAIL%"/>
+      <property name="IDENTIFIER:URL" value="%ENTITY_URL%"/>
+      <property name="IDENTIFIER:DISTANCE" value="%ENTITY_DISTANCE%"/>
+      <property name="TEMPORAL:DATE" value="%ENTITY_DATE%"/>
+      <property name="IDENTIFIER:UTM" value="%ENTITY_UTM%"/>
+      <property name="TEMPORAL:TIME" value="%ENTITY_TIME%"/>
+      <property name="IDENTIFIER:LATITUDE_LONGITUDE" value="%ENTITY_LATITUDE_LONGITUDE%"/>
+      <property name="IDENTIFIER:NUMBER" value="%ENTITY_NUMBER%"/>
+    </map>
+    <map name="fieldMappings">
+      <property name="%ENTITY_LOCATION%" value="location"/>
+      <property name="%ENTITY_COMPANY%" value="company"/>
+      <property name="%ENTITY_PERSON%" value="people"/>
+      <property name="%ENTITY_PRODUCT%" value="product"/>
+      <property name="%ENTITY_TITLE%" value="jobtitle"/>
+      <property name="%ENTITY_NATIONALITY%" value="nationality"/>
+      <property name="%ENTITY_RELIGION%" value="religion"/>
+      <property name="%ENTITY_CREDIT_CARD%" value="creditcard"/>
+      <property name="%ENTITY_MONEY%" value="money"/>
+      <property name="%ENTITY_PERSON_ID%" value="personid"/>
+      <property name="%ENTITY_PHONE_NUMBER%" value="phonenum"/>
+      <property name="%ENTITY_EMAIL%" value="email"/>
+      <property name="%ENTITY_URL%" value="url"/>
+      <property name="%ENTITY_DISTANCE%" value="distance"/>
+      <property name="%ENTITY_DATE%" value="extracteddate"/>
+      <property name="%ENTITY_UTM%" value="utm"/>
+      <property name="%ENTITY_TIME%" value="time"/>
+      <property name="%ENTITY_LATITUDE_LONGITUDE%" value="coordinate"/>
+      <property name="%ENTITY_NUMBER%" value="numbers"/>
+    </map>
+  </properties>
+</component>

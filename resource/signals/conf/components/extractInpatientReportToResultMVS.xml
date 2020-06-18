@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component xmlns="http://www.attivio.com/configuration/type/componentType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="extractInpatientReportToResultMVS" class="com.attivio.platform.transformer.ingest.field.ExtractRegexPatterns" xsi:schemaLocation="http://www.attivio.com/configuration/type/componentType http://www.attivio.com/configuration/type/componentType.xsd ">
+  <properties>
+    <map name="rules">
+      <property name="([^，,。；;:：]*\s*[阴阳]性)" value="result_mvs"/>
+      <property name="([^，,。；;:：()（）]*[(（][^-。；;:：（）()]*[\w-+＋%度微量级型期°窄][）)])" value="result_mvs"/>
+      <property name="([^，,。；;\s]*\s*[\d.]+\s*次/分)" value="result_mvs"/>
+      <property name="([^，,。；;\s]*\s*[\d]+\s*/\s*[\d]+\s*mmHg)" value="result_mvs"/>
+      <property name="([^，,。；;\s]*\s*[\d.]+\s*℃)" value="result_mvs"/>
+      <property name="([\w-/α-ω,:：\s&quot;“”&lt;＜＞&gt;\u4e00-\u9fa5]+[0-9.+＋=＝%Ⅰ-Ⅹ-]+[分%级型])\s*[^)）(（]" value="result_mvs"/>
+      <property name="([gG]leason\s*[\u4e00-\u9fa5:：]*\s*[\d]+\s*[＋+]\s*\d+\s*[＝=]\s*\d+)\s*[^分]" value="result_mvs"/>
+      <property name="([^，,。；;:：/]+[^/]\d+\s*mmHg)" value="result_mvs"/>
+      <property name="([^，,。；;:：/]+[^/]\d+cm/s)" value="result_mvs"/>
+      <property name="(心胸比.{0,6}[\d.]+)" value="result_mvs"/>
+      <property name="(BI-RADS.{0,6}[\d.]+)" value="result_mvs"/>
+    </map>
+    <list name="input">
+      <entry value="text"/>
+      <entry value="impression_s"/>
+      <entry value="diagnosis_s"/>
+    </list>
+  </properties>
+</component>
